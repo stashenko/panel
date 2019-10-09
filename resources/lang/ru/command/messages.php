@@ -49,10 +49,10 @@ return [
     ],
     'environment' => [
         'mail' => [
-            'ask_smtp_host' => 'SMTP Хост (e.g. smtp.gmail.com)',
+            'ask_smtp_host' => 'SMTP Хост (пример smtp.gmail.com)',
             'ask_smtp_port' => 'SMTP Порт',
             'ask_smtp_username' => 'SMTP Пользователь',
-            'ask_smtp_password' => 'SMTP Password',
+            'ask_smtp_password' => 'SMTP Пароль',
             'ask_mailgun_domain' => 'Почтовый Домен',
             'ask_mailgun_secret' => 'Mailgun Secret',
             'ask_mandrill_secret' => 'Mandrill Secret',
@@ -87,7 +87,7 @@ return [
             'session_driver' => 'Драйвер сеанса',
             'queue_driver' => 'Драйвер очереди ',
             'using_redis' => 'Вы выбрали драйвер Redis для одного или нескольких параметров. Пожалуйста, предоставьте действительную информацию о подключении ниже. В большинстве случаев вы можете использовать предоставленные значения по умолчанию, если только вы не изменили настройки.',
-            'redis_host' => 'Ност Redis',
+            'redis_host' => 'Хост Redis',
             'redis_password' => 'Пароль Redis',
             'redis_pass_help' => 'По умолчанию экземпляр сервера Redis не имеет пароля, поскольку он работает локально и недоступен для внешнего мира. Если это так, просто нажмите Enter, не вводя значение.',
             'redis_port' => 'Порт Redis',
